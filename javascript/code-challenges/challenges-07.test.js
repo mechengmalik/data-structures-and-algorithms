@@ -28,7 +28,7 @@ const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
   return starWarsArr.sortStarWarsCharacters((a,b)=>{
     return b.height - a.height;
-  })
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ const removeThree = (idx, arr) => {
   // Solution code here...
   let newA=arr;
   newA.substring(idx,3);
-  return newA
+  return newA;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -76,8 +76,8 @@ const howMuchPencil = (str) => {
   for (let i = 0; i < new1.length; i++) {
     result.push(str);
     str = str.slice(1);
-  
-    
+
+
   }
   return result;
 };
@@ -92,7 +92,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 
 const wordsToCharList = (arr) => {
   // Solution code here...
-  return.arr.split("");
+  return arr.split('');
 };
 
 
